@@ -1,0 +1,43 @@
+.navbar navbar-expand-lg navbar-light bg-light{
+    width: 1440px;
+    height:80px
+}
+:root {
+    --bs-primary: hsl(272, 76%, 50%);
+  }
+  
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: #fff;
+}
+  
+.btn-primary:hover {
+    background-color: hsl(272, 76%, 50%);
+    border-color: hsl(272, 76%, 50%);
+}
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Jarak antara setiap item */
+    margin-left: 15px;
+}
+
+.checklist-item img {
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+.flex-shrink-0{
+    width: 1440px;
+height: 752px;
+padding: 96px 0px 96px 0px;
+gap: 64px;
+
+
+}
+.btn-new {
+    margin-left: 8px; /* Spasi antara teks dan tombol */
+}
+
+
+
